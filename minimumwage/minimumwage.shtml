@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Sven Santema - Portfolio</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="../text/html; charset=utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="shortcut icon" href="../css/img/favicon.png" />
+		<script src="TemplateData/UnityProgress.js"></script>  
+		<script src="Build/UnityLoader.js"></script>
+		<script>
+		  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
+		</script>
+	</head>
+	<body>
+	<header class="projectHeader">
+		<nav>
+			<ul><a name="top"></a>
+				<li>
+					<a href="../index.shtml" id="menuName"> SVEN SANTEMA</a>
+				</li>
+				<li>
+					<a href="../index.shtml#contact">Contact</a>
+				</li>
+				<li>
+					<a href="../portfolio.shtml"> Projects </a>
+				</li>
+				<li>
+					<a href="../index.shtml"> Home </a>
+				</li>
+			</ul>
+		</nav>
+		<h5> 
+			Minimum Wage
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				9th of October 2017
+			</div>			
+			<h6>
+				For Prototype V we had to develop a prototype that was single player and competitive. Furthermore, the focus of the prototype should be on game loops. In our game you have to sort boxes that are delivered to the ware house. The different loops in the game are introduced in steps, which are represented by days. On the final day all steps get combined to the whole game. You can control the character with the arrow keys and crates can be picked up & thrown away with space.
+			</h6>
+			</br>
+			<div id="gameContainer" style="width: 960px; height: 600px"></div>	
+		</div>
+		<footer>
+			<a href="../portfolio.shtml"> Back </a>
+			<hr noshade>
+			<h4>Sven Santema<h4>
+			<h4><small> Proudly powered with Notepad++ </small></h4>					
+		</footer>
+	
+	</body>
+</html>			

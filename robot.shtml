@@ -1,0 +1,27 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Tour Guide 3.0
+		</h5>
+	</header>
+		<div id="wrapper">
+			<h2> 
+				<h3>
+					Commissioned by techniekmuseum HEIM in Hengelo, me and some fellow students made a tour guide robot for the robotics section which will open in 2014. 
+					We made a prototype robot tour guide which is supposed to lead visitors around in the new robotics section. During the tour you have to help and play games with the robot.
+					If you progress through the tour the robot will start to learn and evolve in a smarter robot. Below I have posted the photos of the prototype.
+				</h3>
+			</h2>
+			<img alt="Hand-held gaming device" src="css/img/Robot/components.jpg" class="center">
+			</br>
+			<h3>
+				Progress picture during creation;
+			</h3>
+			<img alt="Hand-held gaming device 2" src="css/img/Robot/progress.JPG" class="center">
+			</br>
+			<h3>
+				Final prototype;
+			</h3>
+			<img alt="Hand-held gaming device" src="css/img/Robot/front.JPG" class="center">
+			<img alt="Hand-held gaming device - Closed" src="css/img/Robot/side.JPG" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

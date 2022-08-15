@@ -1,0 +1,35 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Sketching
+		</h5>
+	</header>
+		<div id="wrapper">
+			<h2> 
+				<h3>
+					This page contains the drawings I made for a sketching course. 
+				</h3>
+			</h2>
+			</br>
+			<h3>
+				Draw a real life object;
+			</h3>
+			<img alt="Sketch - Iron" src="css/img/Sketching/iron.JPG" class="center">
+			</br>
+			<h3>
+				Draw a futuristic train;
+			</h3>
+			<img alt="Sketch - train" src="css/img/Sketching/train1.JPG" class="center">
+			<img alt="Sketch - train" src="css/img/Sketching/train2.JPG" class="center">
+			</br>
+			<h3>
+				Draw a radio consisting out of basic shapes;
+			</h3>
+			<img alt="Sketch - radio" src="css/img/Sketching/radio.JPG" class="center">
+			</br>
+			<h3>
+					Below is the final assignment for the course. The drawing was made under a time limit of three hours. 
+			</h3>
+			<img alt="Sketch - car" src="css/img/Sketching/car1.JPG" class="center">
+			<img alt="Sketch - car" src="css/img/Sketching/car2.JPG" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

@@ -1,0 +1,21 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Pizza Panic
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				27th of November 2017
+			</div>	
+			
+			<h6>
+				For the class Game Prototyping at ITU we were given the assignment to create a prototype which is a local multiplayer, has an exchange of goods between players and has only one loser.
+			</h6>
+			
+			<p>
+				We came up with Pizza Panic. In this game you deliver pizzas before you run out of fuel. As a reward for delivering pizzas you get more fuel. In total there are three types of pizza that can be delivered, the colour of the arrow displays what colour pizza you need to deliver. However, there is only one of each colour of pizza. So it can occur that players have to battle for who gets to deliver a pizza. They are first come, first serve - so get to your pizza quick! Furthermore, players can steal each others pizzas by crashing into their cars. To help you complete your tasks the arrow above the car displays in which direction the correct pizza can be found, and when obtained needs to be delivered. When a player is out of fuel he or she has lost the game. Downloads for the game can be found <a href="pizzapanic/pizza_windows.zip">here for Windows</a>. <!-- and <a href="pizzapanic/pizza_macos.zip">here for MacOS</a>.-->
+			</p>
+			
+			<iframe style="display: block; margin-left: auto; margin-right: auto; margin-top:50px;" width="720" height="405"  src="https://www.youtube.com/embed/S55ne2-IHNo?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+<!--#include virtual="/footer.html" -->

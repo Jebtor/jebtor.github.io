@@ -1,0 +1,17 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Foam Sculpting
+		</h5>
+	</header>
+		<div id="wrapper">
+			<h2> 
+				<h3>
+					For a course called 'Designing in Context' I had to design and sculpt a hand-held gaming device in foam.
+				</h3>
+			</h2>
+			<img alt="Hand-held gaming device" src="css/img/Sculpting/2.JPG" class="center">
+			<img alt="Hand-held gaming device 2" src="css/img/Sculpting/1.JPG" class="center">
+			<img alt="Hand-held gaming device" src="css/img/Sculpting/3.JPG" class="center">
+			<img alt="Hand-held gaming device - Closed" src="css/img/Sculpting/4.JPG" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

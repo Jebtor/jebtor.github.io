@@ -1,0 +1,18 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Flying Ship 
+		</h5>
+	</header>
+		<div id="wrapper">
+			<h2> 
+				<h3>
+					This is a ship I made for a project in secondary school. <br/> The textures are not finished yet.
+				</h3>
+			</h2>
+			<img alt="ship - drawing" src="css/img/Ship/aside.jpg" class="center">
+			<img alt="ship - Picture 1" src="css/img/Ship/ship.jpg" class="center">
+			<img alt="ship - Picture 2" src="css/img/Ship/ship1.jpg" class="center">
+			<img alt="ship - Picture 3" src="css/img/Ship/ship2.jpg" class="center">
+			<img alt="ship - Picture 4" src="css/img/Ship/ship3.jpg" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

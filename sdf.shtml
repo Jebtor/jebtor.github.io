@@ -1,0 +1,19 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			SDF Fish
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				12th of July 2016
+			</div>	
+			
+			<h6> 
+				SDF Fish is a visualisation tool I made during my <a href="css/img/SDF/GP.pdf">graduation project</a> for the visualisation of Synchronous Data flow Schedules (SDF). 
+			</h6>
+			<p>
+				SDF graphs are a widely used formalism for the analysis of data flow in streaming applications.The tool can load in data files of schedules and visualise these. The visualisations exist out of a Gantt-like chart and a snapshot visualisation of the resources. Users can navigate through the schedules by using time controls. Furthermore, an automatic play function is featured. In order to provide overview for bigger schedules the tool offers zoom scale and filter capabilities.
+			</p>
+			<img alt="world" src="css/img/SDF/sdf.gif" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

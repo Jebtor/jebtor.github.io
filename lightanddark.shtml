@@ -1,0 +1,30 @@
+<!--#include virtual="/header.html" -->
+		<div id="wrapper">
+			<img alt="logo" src="css/img/Light/logo.png" class="center" style="margin-top:10px;"> 
+			
+			<div id="date">
+				16th of October 2015
+			</div>
+			
+			<h6>
+				Light and Dark is the result of the course Game Studio 4 I attended at the Royal Melbourne Institute of Technology. Other members of the team are Joshua Legaspi (RMIT), Rhys Barney (RMIT) and Erik van Megen (HKU, Utrecht). Within the team I played the role of lead programmer. The game was made in Unity and uses the at the time new networking API introduced in Unity 5.1. 
+			</h6>
+			
+			<p>
+				Light and Dark is simply an abstract idea inspired by Martin Creed - "No. 227" [2000]. The installation consists out of a room with the lights switching on and off over an interval. We interpreted this as light battling against dark for control over the room, this became the central mechanic of our game. Players battle for control over the level. Furthermore, the idea inspired us to include an element of hiding. One can hide in complete darkness, but also on the other hand when one's eyes are adjusted to darkness it can be impossible to see into bright light. 
+			</p>
+			<img alt="abstract idea" src="css/img/Light/227.gif" class="center">
+			
+			<h2> - The Game - </h2> 
+			<p>		
+				This initial idea developed into a more concrete game over the course of the semester. The end result is a multiplayer game in which two players have to battle against each other in a space station by conquering rooms. One player lives in the dark and turns off the electricity to a room, whereas the other player turns it back on and thus lights up the room. Each player is invisible to the other player in rooms they conquered. To provide variation in gameplay connections between rooms are locked at random. However, a path to each room is always maintained. 
+			</p>
+			<img alt="conquering" src="css/img/Light/conquer.gif" class="center">
+					
+			<h2> - The Goal - </h2>
+			<p>
+				Players are equipped with three motion detectors which can be strategically placed for map awareness. Knowing where your opponent is extremely valuable, this information can help you to safely conquer a room of your opponent. Or even ambush your opponent. A player can assassinate its opponent when the opponent is visible. 
+			</p>
+			<img alt="conquering" src="css/img/Light/detector.gif" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

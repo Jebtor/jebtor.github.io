@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Sven Santema - Portfolio</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="../text/html; charset=utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="shortcut icon" href="../css/img/favicon.png" />
+		<script src="TemplateData/UnityProgress.js"></script>  
+		<script src="Build/UnityLoader.js"></script>
+		<script>
+			var gameInstance = UnityLoader.instantiate("gameContainer", "Build/HTML_release.json", {onProgress: UnityProgress});
+		</script>		
+	</head>
+	<body>
+	<header class="projectHeader">
+		<nav>
+			<ul><a name="top"></a>
+				<li>
+					<a href="../index.html" id="menuName"> SVEN SANTEMA</a>
+				</li>
+				<li>
+					<a href="../index.html#contact">Contact</a>
+				</li>
+				<li>
+					<a href="../portfolio.shtml"> Projects </a>
+				</li>
+				<li>
+					<a href="../index.html"> Home </a>
+				</li>
+			</ul>
+		</nav>
+		<h5> 
+			The RANDOM game
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				10th of September 2017
+			</div>
+			
+			<p>
+				For prototype II we had to design a game that can be spectated, has a digital component, is for two players and either infinite play or rounds of <2 minutes. We came up with RANDOMIZE, a game to socialize or just to do something crazy, to amuse on a night out or at a party. The game can be played anywhere with anyone. In the game two players are randomly selected from the spectators. Each player is given a random sentence. Both players have to express these sentences, no excuses. Imagination solves every situation. After both players depicted their words the crowd choses a winner. The winner gets to add new words to the game. Slides for our presentation can be found <a href="GamePrototyping - Prototype 2.pdf">here</a>. 
+			</p>
+			</br>
+			<div class="webgl-content">
+			  <div id="gameContainer" style="width: 960px; height: 720px"></div>
+			  <div class="footer">
+				<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+			  </div>
+			</div>
+			
+			<h2>
+				- Types of Play -
+			</h2>
+			<p style="text-align:center;">
+				Analysis of the classes of play that can be found in RANDOMIZE.
+			</p>
+			<h2>
+				<h3>
+					<table style="width:70%; margin-left:auto; margin-right: auto;">
+						<tr>
+							<td style="width:50%;">- Agõn -</td>
+							<td style="width:50%;">- Alea -</td>
+						</tr>
+						<tr style="vertical-align:top; color: #7a7a7a">
+							<td> 
+								<ul> <li> Win the round to add your own words to the game </li><li> Compete for the fame </li> </ul>					</br>
+							</td>
+							<td> 
+								<ul> <li> Randomly selected players, with thrill and surprise when you are picked </li><li> Randomly selected words to express </li> </ul>
+													</br>
+							</td>
+						</tr>
+						<tr>
+							<td>- Mimicry -</td>
+							<td>- Ilinx -</td>
+						</tr>						
+						<tr style=" vertical-align:top; color: #7a7a7a">
+							<td> 
+								<ul> <li> Choose how to play a role </li><li> Up to your own imagination to interpret the words </li> </ul>
+							</td>
+							<td>
+								<ul> <li> Feeling of embarrassment </li> </ul>
+							</td>
+						</tr>
+					</table>
+					</br>
+				</h3>
+			</h2>
+		</div>
+		<footer>
+			<a href="../portfolio.shtml"> Back </a>
+			<hr noshade>
+			<h4>Sven Santema<h4>
+			<h4><small> Proudly powered with Notepad++ </small></h4>				
+		</footer>
+	</body>
+</html>			

@@ -1,0 +1,35 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Loot System
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				5th of May 2016
+			</div>		
+			
+			<h6>
+				This project aims to create an extremely flexible yet easy to use system to generate loot and other procedural content for games. The loot generation should be tweakable without writing any lines of code through editors.
+			</h6>
+			
+			<p>
+				I have been working on this project for a couple of weeks now and enjoyed it a lot. The goal was simple: create a flexible system that generates RPG-like loot. Loot is generated when for example a mob dies. Upon death a mob can drop multiple items and currencies. The loot that a mob drops is generated from a loot table. An easy approach would be to assign probabilities to every item in a loot table. This, however, does not provide much control over the total number of items that are dropped or more complex relations between items such as AND and OR operators (drop a mighty sword AND a shield OR drop a bow AND arrows).
+			</p>
+			
+			<h2> 
+				- Approach -
+			</h2>
+			<p> 
+				When doing research I came  across many possible implementations but none of them were quite elegant in the way they solved it. Until I came across <a href="https://www.codeproject.com/articles/420046/loot-tables-random-maps-and-monsters-part-i">this</a> code project by Mike Barthold and also <a href="http://www.lostgarden.com/2014/12/loot-drop-tables.html">this</a> post by Daniel Cook. The implementation is fairly straightforward but genius. A loot table exist out of loot objects. These loot objects can be items, values (currencies),  null (to control item count) and loot tables itself! By having loot tables itself being a loot object, you can use loot tables recursively. This can save you a lot of work since you can create base tables and reuse these. For example when you want to create a loot table for a pirate captain; instead of having to specify all loot that can be dropped by any pirate and the loot that is unique for a captain. You can simply include the base pirate and add a loot table for some unique captain items. 
+			</p>
+
+			<h2> 
+				- Implementation -
+			</h2>
+			<p>
+				So from a code perspective we have a very powerful way of generating loot and loot tables. The data itself is stored in SQL tables. However, the tables are very difficult to create and understand. Therefore I wrote an Unity editor extension. The editor extension will connect to the database and allows you to create, view and delete loot tables. To solve the problem of complexity and maintain the flexibility, the editor is node based. The base node (blue) is where the loot is generated, subsequently every nested table is connected to the parent table. Furthermore, items, values and null objects can be added for every table. An inspector allows you load an item or value from the database and set properties. Also, on the bottom right one can generate loot from the current table to test the current table. The editor is fully working and can be implemented in any project. My plan is to expand the editor to also display item icons and provide easier views of the database data.
+			</p>
+
+			<img alt="screenshot" src="css/img/Loot/looteditor.JPG" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

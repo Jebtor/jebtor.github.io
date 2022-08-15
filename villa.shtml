@@ -1,0 +1,53 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Blender Villa
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				3rd of March 2014
+			</div>
+			
+			<h6>
+					This is my first project in Blender. I've worked with 3d modelling software before and I wanted to see if I could work with blender.
+					The villa is still far from finished. The window frames still need a normal map and of course much more is lacking. Furthermore, the texture are just place holders for the display. 
+					I hope to find time someday to finish the whole villa.
+			</h6>
+			
+			<h2>
+				- North Side -
+			</h2>
+			<img alt="Villa - North" src="css/img/Villa/Afbeelding1.png" class="center">
+			
+			<h2>
+				- East Side -
+			</h2>
+			<img alt="Villa - East" src="css/img/Villa/Afbeelding2.png" class="center">
+			
+			<h2>
+				- South Side -
+			</h2>
+			<img alt="Villa - South" src="css/img/Villa/Afbeelding3.png" class="center">
+			
+			<h2>
+				- West Side -
+			</h2>
+			<img alt="Villa - West" src="css/img/Villa/Afbeelding4.png" class="center">
+			
+			<h2>
+				- Top view -
+			</h2>
+			<img alt="Villa - Roof" src="css/img/Villa/Afbeelding5.png" class="center">
+			<img alt="Villa - First Floor" src="css/img/Villa/Afbeelding6.png" class="center">
+			<img alt="Villa - Ground" src="css/img/Villa/Afbeelding7.png" class="center">
+			
+			<h2>
+				- Perspective Views - 
+			</h2>
+			<img alt="Villa - 1" src="css/img/Villa/Afbeelding11.png" class="center">
+			<img alt="Villa - 2" src="css/img/Villa/Afbeelding12.png" class="center">	
+			<img alt="Villa - 3" src="css/img/Villa/Afbeelding8.png" class="center">
+			<img alt="Villa - 4" src="css/img/Villa/Afbeelding9.png" class="center">
+			<img alt="Villa - 5" src="css/img/Villa/Afbeelding10.png" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

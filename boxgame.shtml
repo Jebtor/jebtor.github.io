@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" value="Sjoerd Rozendal, Hidde Leistra, Sven Santema, Aede Symen Hoekstra"/>
+		
+		<title> Sven Santema - Portfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="shortcut icon" href="css/img/favicon.png" />
+		
+		<script src="js/libraries/easeljs-0.5.0.min.js"></script>
+		<script src="js/libraries/tweenjs-0.3.0.min.js"></script>
+		
+		<script src="js/Wall.js"></script>
+		<script src="js/Target.js"></script>
+		<script src="js/Box.js"></script>
+		<script src="js/Hero.js"></script>
+		
+		<script src="js/MediaManager.js"></script>
+		<script src="js/SaveGame.js"></script>
+		<script src="js/Levels.js"></script>
+		<script src="js/Game.js"></script>
+		
+		<script>
+			function reset() {
+				if(confirm("Are you sure you want to delete your progress?")){
+					savegame.reset();
+					document.location.reload(true);				
+				}
+			}
+		</script>
+		<style>
+			#controls {
+				width:632px;
+				border: 2px solid black;
+				background-color: grey;
+				padding:2px;
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body onload="init()">
+	<header class="projectHeader">
+		<nav>
+			<ul><a name="top"></a>
+				<li>
+					<a href="index.html" id="menuName"> SVEN SANTEMA</a>
+				</li>
+				<li>
+					<a href="index.html#contact">Contact</a>
+				</li>
+				<li>
+					<a href="portfolio.shtml"> Projects </a>
+				</li>
+				<li>
+					<a href="index.html"> Home </a>
+				</li>
+			</ul>
+		</nav>
+		<h5> 
+			Box game
+		</h5>
+	</header>
+	<div id="wrapper" style="width:640px;">
+			<h2> 
+				<h3>
+					This is a game I made with other students in secondary school.
+				</h3>
+			</h2>
+		<div style=" width:640px; height:480px; margin-top:40px;" scrolling="no" >
+			<canvas width=640 height=480 style="position:absolute; background:rgba(5, 5, 5, 100)" id="backgroundlayer" scrolling="no" ></canvas>
+			<canvas width=640 height=480 style="position:absolute; background:rgba(0, 0, 0,   0)" id="toplayer" scrolling="no"></canvas>
+		</div>
+		<div id="controls">Controls:<br/>Arrowkeys - Movement<br/><br/>Goal:<br/>  The goal of the game is to push the boxes on the designated locations.<br/><button onclick="reset()">Reset</button></div>
+	</div>
+		<footer>
+			<a href="portfolio.shtml"> Back </a>
+			<hr noshade>
+			<h4>Sven Santema<h4>
+		</footer>
+	</body>
+</html>

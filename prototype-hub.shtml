@@ -1,0 +1,49 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Game Prototypes
+		</h5>
+	</header>
+		<div id="wrapper">
+			<h2> 
+				<h3>
+					This page displays all the prototypes I made together with other studens during the course Game Prototyping at ITU. Each week focussed on a different topic and set different requirements for the prototype. All prototypes were made in one or two weeks. 
+					</br>
+				</h3>
+			</h2>
+			
+			<div class="clearfix" id="projectWrapper">
+				<a href="bottleball.shtml">
+					<img alt="bottleball" src="css/img/project-bg-bottleball.jpg">
+					<div class="projectTileHeader"> Prototype 1 </div>
+				</a>
+				<a href="randomize/randomize.shtml">
+					<img alt="randomize" src="css/img/project-bg-randomize.jpg">
+					<div class="projectTileHeader"> Prototype 2 </div>
+				</a>
+				<a href="spookyball/spookyball.shtml">
+					<img alt="spookyball" src="css/img/project-bg-spookyball.jpg">
+					<div class="projectTileHeader"> Prototype 3 </div>
+				</a>
+				<a href="clippywars.shtml">
+					<img alt="clippy" src="css/img/project-bg-clippy.jpg">
+					<div class="projectTileHeader"> Prototype 4 </div>
+				</a>
+				<a href="minimumwage/minimumwage.shtml">
+					<img alt="minimum wage" src="css/img/project-bg-wage.jpg">
+					<div class="projectTileHeader"> Prototype 5 </div>
+				</a>
+				<a href="busdriver/busdriver.shtml">
+					<img alt="bus driver" src="css/img/project-bg-bus.jpg">
+					<div class="projectTileHeader"> Prototype 6 </div>
+				</a>
+				<a href="icehopping.shtml">
+					<img alt="ice hopping" src="css/img/project-bg-ice.jpg">
+					<div class="projectTileHeader"> Prototype 7 </div>
+				</a>
+				<a href="pizzapanic.shtml">
+					<img alt="pizza panic" src="css/img/project-bg-pizza.jpg">
+					<div class="projectTileHeader"> Prototype 8 </div>
+				</a>			
+			</div>	
+		</div>
+<!--#include virtual="/footer.html" -->

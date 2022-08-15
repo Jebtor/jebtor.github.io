@@ -1,0 +1,25 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Pirate Island
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				26th of January 2015
+			</div>
+			
+			<h6>
+					This is a side project I am working on. It started out as a random island generator and evolved from there. 
+					Each time the game launches a new random island is generated (see below). This world can explored with your own ship!
+					So far you can sail around and shoot your cannons. The project is written in C++ and uses OpenFrameworks. 
+			</h6>
+			<img alt="world" src="css/img/Pirate/world.jpg" class="center">
+			
+			<h6>			
+					I also started working on an algorithm to 
+					get pixel collision with the island and other ships. In the mini-map (top-right) you can see the tiles which handle the collision.
+					Grey tiles contain land and red tiles contain a boat. 
+			<h6>
+			<img alt="screenshot" src="css/img/Pirate/screen.jpg" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

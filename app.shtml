@@ -1,0 +1,25 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Interactive Application
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				22nd of January 2015
+			</div>
+			
+			<h6>
+				Together with BIT and computer science students, I made an interactive Android application that can be played by groups over the course of a couple of days. 
+			</h6>
+			<p>
+				The application could be played as an introductory activity. 
+				It should make it easier for a new group of people to get to know each other. Each player gets assigned a target. This target is another player in the group.
+				A player needs to find their target, and try to 'kill' him or her. In the game you can 'kill' someone by being alone with them. 
+				The game can help by providing participants with common-ground topics - topic you both like. 
+			</p>
+			<iframe style="display: block; margin-left: auto; margin-right: auto; margin-top:50px;" src="https://player.vimeo.com/video/117504542" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>		
+			<img alt="Screenshot 1" src="css/img/App/shot2.jpg" class="center">
+			<img alt="Screenshot 2" src="css/img/App/shot1.jpg" class="center">
+			<img alt="Screenshot 3" src="css/img/App/shot3.jpg" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

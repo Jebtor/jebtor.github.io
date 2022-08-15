@@ -1,0 +1,23 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Empire of Dirt
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				26th of January 2015
+			</div>
+			
+			<h6>
+				Empire of Dirt is an C++ OpenFrameworks project that includes pathfinding & random generation.  
+			</h6>
+			
+			<p>
+				For this project worked with <a href="http://www.eyediction.com/">Joep Schyns</a>. The project is made for a second year programming course in Creative Technology. The project had to be written in C++ with the use of OpenFrameworks. 
+				This program generates a random world in which two teams are battling each other while looking for a flag. Features of the program are: A* search algorithm, randomly generated world, tanks influence the terrain, explored terrain & darkness. We wrote this program in Visual Studio 2012. 
+			</p>
+			<iframe class="videoYoutube" width="853" height="480" src="https://www.youtube.com/embed/vEWj-4zDXZU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			<!-- <iframe style="display: block; margin-left: auto; margin-right: auto; margin-top:50px;" width="640" height="480" src="https://www.youtube.com/watch?v=vEWj-4zDXZU?rel=0" frameborder="0" allowfullscreen></iframe> -->
+			<iframe class="videoYoutube" width="853" height="480" src="https://www.youtube.com/embed/6r_QQMzgX8w?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+<!--#include virtual="/footer.html" -->

@@ -1,0 +1,17 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Gaming Console Sketches
+		</h5>
+	</header>
+		<div id="wrapper">
+			<h2> 
+				<h3>
+					This is an experiment to design an object using a basic shape which you keep changing until you get your final design. I started out with a rectangular box.
+				</h3>
+			</h2>
+			<img alt="Concept 1" src="css/img/Console/concept1.JPG" class="center">
+			<img alt="Concept 2" src="css/img/Console/concept2.JPG" class="center">
+			<img alt="First sketch" src="css/img/Console/sketch.JPG" class="center">
+			<img alt="Clean Sketch" src="css/img/Console/final.JPG" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

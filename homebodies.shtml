@@ -1,0 +1,36 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Homebodies
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				13th of October 2015
+			</div>
+			
+			<h6>
+				One day, a group of unwary citizens arrived. They needed a house in which to rest their tired eyes. They needed food.They hated the rain and loved a walk in the park. And they had absolutely no idea the town had some seriously bad gangs.
+			</h6>
+			
+			<p>
+				This is the end project for the course Games and Artificial Intelligence Techniques. The goal was to create a game that includes pathfinding, finite state machines and neural networks. 		
+				Our game takes place in a town. Now, this town has some good areas and some bad areas. Some happy zones where the parks offer solace, burger joints that sell burgers full with unsaturated fats and post-modernist shelters to stay dry when it is raining. 				
+			</p>
+			<img alt="screenshot" src="css/img/Home/buildings.png" class="center">
+			
+			<p>		
+				Other parts of the town are not so fortunate and are neglected. Smoky industrial plants pollute the air. This drives citizens in these areas to extremes, even to the point of violence towards the happy citizens... 
+			</p>
+			<img alt="screenshot" src="css/img/Home/gang.png" class="center">
+			
+			<p>		
+					The aim of the simulation is for all to end well, that our citizens learn their way home, to eat before they starve, to shelter from the whether and avoid the less fortunate citizens that might wish harm. The health and happiness of a citizen is indicated by the colour of their head and feet. 
+			</p>
+			<img alt="screenshot" src="css/img/Home/health.png" class="center">
+			
+			<p>			
+					In other words, the goal of citizens is to stay alive. When hungry; eat, raining?; find shelter.The actions a citizen can perform are controlled by a finite state machine. Also a citizen navigates through the city using A* pathfinding. Lastly, the control over the citizens was taken over by a neural network. The goal of the neural network was tasked with survival of the good citizens. The gif below was taken whilst learning. 
+			</p>
+			<img alt="screenshot" src="css/img/Home/learning.gif" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

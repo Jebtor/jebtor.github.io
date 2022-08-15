@@ -1,0 +1,21 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Clippy Wars
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				24th of September 2017
+			</div>
+		
+			<h6>
+				For the class Game Prototyping at ITU we were given the assignment to create a prototype which invokes an emotion in the player. Our group focussed on confusion for the prototype. 
+			</h6>
+			
+			<p>
+					We came up with Clippy Wars. Clippy Wars is a platformer in which the player has to grab an object(the hand) and hold it for 15 seconds. So far it sounds fairly easy right, The only thing is, though, that there are four player characters which look exactly like each other. Furthermore, they all copy your movement with some random delay. Therefore, upon commencing a game you first have to find out which character is your real character and collect the objective. Try not to loose track of your character whilst doing this! Downloads for the game can be found <a href="clippy/clippy_windows.zip">here for Windows</a> and <a href="clippy/clippy_macos.zip">here for MacOS</a>.
+			</p>
+			
+			<img alt="Clippy Wars" src="css/img/Clippy/clippy.gif" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Sven Santema - Portfolio</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="../text/html; charset=utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="shortcut icon" href="../css/img/favicon.png" />
+		<script src="TemplateData/UnityProgress.js"></script>  
+		<script src="Build/UnityLoader.js"></script>
+		<script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Prototype 6 Web.json", {onProgress: UnityProgress});
+		</script>
+	</head>
+	<body>
+	<header class="projectHeader">
+		<nav>
+			<ul><a name="top"></a>
+				<li>
+					<a href="../index.html" id="menuName"> SVEN SANTEMA</a>
+				</li>
+				<li>
+					<a href="../index.html#contact">Contact</a>
+				</li>
+				<li>
+					<a href="../portfolio.shtml"> Projects </a>
+				</li>
+				<li>
+					<a href="../index.html"> Home </a>
+				</li>
+			</ul>
+		</nav>
+		<h5> 
+			One Button Prototype
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				22nd of October 2017
+			</div>			
+			<h6>
+				For Prototype VI we had to develop a one button game. We decided to make Bus Driver, in this game it is your job to bring the bus safely to the finish. You do this by interacting with obstacles using spacebar. Some obstacles requires just one press, others multiple and there are even obstacles that require you to hold the spacebar. I have done the visual assets for this prototype. Note: The game may play some loud music.  
+			</h6>
+			</br>
+			<div id="gameContainer" style="width: 960px; height: 600px"></div>
+		</div>
+		<footer>
+			<a href="../portfolio.shtml"> Back </a>
+			<hr noshade>
+			<h4>Sven Santema<h4>
+			<h4><small> Proudly powered with Notepad++ </small></h4>					
+		</footer>
+	
+	</body>
+</html>			

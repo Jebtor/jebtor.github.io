@@ -1,0 +1,23 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Bottle Ball
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				3rd of September 2017
+			</div>
+			
+			<h6>
+				For the course Game Prototyping at ITU our group was given the task to design a sport that made use of a prop. 
+			</h6>
+			
+			<p>
+				The sport has to be team based, with teams consisting of at maximum three players. Furthermore, the sport has to make use of a prop and contain rounds that can take up to a maximum of 10 minutes. Our group came up with and playtested Bottleball. A full description of Bottleball can be found <a href="css\img\BottleBall\Bottleball.pdf"> here </a>.			
+			</p>
+			<p>
+				An interesting aspect of the game, in my opinion, is the fact that it uses a water bottle to keep track of score. This creates a more continuous form of points as opposed to counting goals.
+			</p>
+			<img alt="world" src="css/img/BottleBall/sport.jpg" class="center" style="width:600px;">
+		</div>
+<!--#include virtual="/footer.html" -->

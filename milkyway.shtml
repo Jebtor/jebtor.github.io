@@ -1,0 +1,49 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Milkyway Inn
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				12th of March 2018
+			</div>
+		
+			<h6>
+				Milkyway Inn is a tycoon-like game you manage a space station inside an asteroid. Aliens from all corners of the galaxy visit for all sorts of reasons and it is your job to satisfy them. While at the same time protecting them from the hazards of outer space.
+			</h6>
+			
+			<div  style="height:250px;display:table;width:80%; margin-left:auto;margin-right:auto;">
+				<img style="float:left;"  alt="Milkyway Inn - logo" width="320" src="css/img/Milkyway/logo.png" >
+				<div style="height:250px; display:table;">
+					<p style="display: table-cell; vertical-align:middle;">
+						This is a project for university I am currently working on together with five other students for the course Game Project. The goal of this course is to build a game in one semester. I am the lead programmer of the group, there are three other programmers in our team. 
+					</p>
+				</div>
+			</div>
+			
+			<h2> 
+				- Build -
+			</h2>
+			<p>
+				As the player you can make rooms and place objects inside them. The way this works is much like many other Tycoon game where you have a grid on which you can Drag & Drop rectangular rooms (or any arbitrary shape by combining adding additional rectangular shapes). You can then fill the rooms with objects as your budget allows in order to create a pleasant stay for your visitors.
+			</p>
+			<img style="margin-top:20px; width:80%;" alt="Milkyway Inn - Building" src="css/img/Milkyway/building.gif" class="center">
+			
+			<h2> 
+				- Visitors - 
+			</h2>
+			<p>
+				When the player has build a space station visitors will start to come by. They can be very different from each other and have their own preferences to the world. Every visitor will be at the station for a finite time, the player has to make sure that they are content and their needs are fulfilled during their stay. The better the player did, the better the rating the visitors will give as they leave the station.
+			</p>
+			<p>
+				Even though visitors can be very different from each other their core behaviour is the same; try to complete the task that it is given. The agents are driven by finite state machines. The state machines can be easily edited by any member of the team through custom editors. First of all states can be added and edited through the state editor. Furthermore, existing transitions and new transitions can be added through the transition editor. Team members can also change the behaviour during states and transitions. For example designers could change the animation or sound that is being played when a certain state is entered.
+			</p>			
+			<img  style="margin-top:20px" alt="Milkyway Inn - Agents" src="css/img/Milkyway/stateMachines.png" class="center">
+			
+<!--		<h2> 
+				<h3>
+					The project was made together with <a href="https://www.itu.dk/people/engb/">Mads Engberg</a> and <a href="http://jalict.com/index.html">Frans Peter Larsen</a>. The textures that were used come from <a href="http://kenney.nl/assets/voxel-pack">Kenney's voxel pack</a>.
+				</h3>
+			</h2> -->
+		</div>
+<!--#include virtual="/footer.html" -->

@@ -1,0 +1,40 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Voxel Game
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				11th of December 2017
+			</div>
+			
+			<h6>
+				This is a C++ voxel game in which you can place and mine various types of blocks. It uses Bullet Physics for physics simulation and collision checking.
+			</h6>
+			
+			<p>
+				In the first Semester of MSc. Games Technology in the course Game Programming we were given an assignment to make a simple game using the <a href="https://github.com/mortennobel/SimpleRenderEngineProject/">Simple Render Engine</a> (SRE) in C++ with the focus on efficient programming without memory leaks. Our group decided to create a basic Minecraft-clone, with the main focus on a proper voxel data structure together with chunk management.
+			</p>	
+			
+			<p>
+				The final result is a simple game with similar mechanics as Minecraft: You can mine different blocks and place them. Furthermore, we added some extra small features such as flying and no clip mode. Through various iterations and optimisations we have achieved a stable 60FPS gameplay with over a million voxels loaded.
+			</p>	
+			
+			<iframe class="videoYoutube"  src="https://www.youtube.com/embed/3t8JtOKxXeU" frameborder="0" allowfullscreen></iframe>
+			
+			<h2>
+				- Challenges - 
+			</h2>
+			<p>
+				The primary challenges of in this project were the various optimisations we had to implement. Furthermore, most of the lecturing had been focused on 2D in SRE, so making a 3D greatly increased the complexity. Furthermore, SRE (at the time) only supported Box2D for physics. Therefore we had to implement <a href="https://github.com/bulletphysics/bullet3">Bullet Physics</a> into the project to run 3D physics simulations.
+			</p>	
+			
+			<h2>
+				- Collaborators - 
+			</h2>
+			<p>
+				The project was made together with <a href="https://www.itu.dk/people/engb/">Mads Engberg</a> and <a href="http://jalict.com/index.html">Frans Peter Larsen</a>. The textures that were used are from <a href="http://kenney.nl/assets/voxel-pack">Kenney's voxel pack</a>. Lastly, the project is completed in SRE by Morten Nobel.
+			</p>
+		
+		</div>
+<!--#include virtual="/footer.html" -->

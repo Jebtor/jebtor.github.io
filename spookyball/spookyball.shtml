@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Sven Santema - Portfolio</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="../text/html; charset=utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">		
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="shortcut icon" href="../css/img/favicon.png" />
+		<script src="TemplateData/UnityProgress.js"></script>
+	</head>
+	<body>
+	<header class="projectHeader">
+		<nav>
+			<ul><a name="top"></a>
+				<li>
+					<a href="../index.html" id="menuName"> SVEN SANTEMA</a>
+				</li>
+				<li>
+					<a href="../index.html#contact">Contact</a>
+				</li>
+				<li>
+					<a href="../portfolio.shtml"> Projects </a>
+				</li>
+				<li>
+					<a href="../index.html"> Home </a>
+				</li>
+			</ul>
+		</nav>
+		<h5> 
+			SpookyBall
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				24th of September 2017
+			</div>			
+			<h6>
+					For prototype III we had to adjust an existing game. We decided to adjust brick out, normally in brick out you have to clear the level by hitting all the blocks with your ball. In our game, however, a new block is spawned when you hit one with your ball. Blocks only disappear when the whole row is filled with blocks, similiar to Tetris. 
+			</h6>
+			</br>
+			      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>		
+		</div>
+		<footer>
+			<a href="../portfolio.shtml"> Back </a>
+			<hr noshade>
+			<h4>Sven Santema<h4>
+		</footer>
+		
+		<script type='text/javascript'>
+		  var Module = {
+			TOTAL_MEMORY: 268435456,
+			errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+			compatibilitycheck: null,
+			backgroundColor: "#231F20",
+			splashStyle: "Light",
+			dataUrl: "Release/Build.data",
+			codeUrl: "Release/Build.js",
+			asmUrl: "Release/Build.asm.js",
+			memUrl: "Release/Build.mem",
+		  };
+		</script>
+		<script src="Release/UnityLoader.js"></script>
+	</body>
+</html>			

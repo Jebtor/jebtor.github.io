@@ -1,0 +1,38 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Terrain System
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				11th of April 2016
+			</div>
+			
+			<h6>
+				
+			</h6>
+			
+			<p>
+				I started this project because I wanted to learn more about terrains. Unity ' s built in terrain system is great to get things going and for conventional usage. However, it also has its limitations. For example terrains have to be square and cannot contain any holes. Whilst these features can make a terrain so much more interesting. By being able to cut holes in your terrain you can have cave systems. Games such as World of Warcraft employ this, square holes are cut into the terrain which are covered by game objects that form the cave. Another widely used approach uses voxels and marching cubes. This offers great flexibility in terrain options, but usually has a very distinct look. 
+			</p>
+			<img alt="world" src="css/img/Terrain/wowcave.jpg" class="center">
+			
+			<h2>
+				- LODs & Splatmaps - 
+			</h2>
+			<p>
+				At the time I started working on this I came across a great tutorial series called "Procedural Landmass Generation" by Sebastian Lague. This formed my starting point for this project, however, at the time not all episodes were published yet. My terrain generation and collision is largely based on this work,  a terrain is split up into square chunks. Chunks exits out of an even number of vertices placed along a grid. This allows for easy and automated generation of LODs; just take every other vertex and you end up with a lower LOD version of the chunk. 
+			</p>
+			
+			<p>
+				Another important aspect of a terrain is the texture on it. A terrain blends many textures together. Furthermore, on one hand the textures need to provide a lot of detail since you are standing close to it, whereas on the other hand you can usually see a huge portion of the terrain. Of course conventional uv mapping does not cover it! However, splat mapping is perfect for this. I wrote my own splat mapping shader that, for now, can blend four different textures using the RGB channels and a default if all other channels are zero.
+			</p>
+			<img alt="world" src="css/img/Terrain/Splat.JPG" class="center">
+			<img alt="world" src="css/img/Terrain/blending.JPG" class="center">
+			
+			<h2> - Conclusion - </h2>
+			<p>			
+				In conclusion, my project still has the exact same limitations; it has to be square and cannot contain any holes. However, I learned a great deal on the basics of how terrain systems work. 
+			</p>
+		</div>
+<!--#include virtual="/footer.html" -->

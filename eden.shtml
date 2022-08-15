@@ -1,0 +1,16 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Garden of Eden
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				29th of June 2014
+			</div>
+			
+			<h6>
+				Garden of Eden is a programming project made in cooperation with <a href="http://www.eyediction.com/">Joep Schyns</a>. The project is made for a first year course called Algorithms in Creative Technology. Features of the programme are: random level generator, time & seasons, bouncing balls and particle systems. 
+			</h6>
+			<iframe class="videoYoutube" width="640" height="480" src="https://www.youtube.com/embed/A0gojnAoFo4?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+<!--#include virtual="/footer.html" -->

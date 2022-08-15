@@ -1,0 +1,20 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			RC Helicopter
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				18th of February 2015
+			</div>
+			
+			<h6>
+				During the third module of the second year, a fellow student and I started to work on this project as a fun project. 			
+			</h6>
+			
+			<p>
+				Ibrahim, my fellow student, had all the components for this project laying around but never actually got to work on it. The goal of this project is to build an remote controlled (RC) helicopter and build from there. Working on this project will deepen experience and skills with electronics and interfacing. The helicopter design which we use is the <a href="https://en.wikipedia.org/wiki/Contra-rotating">contra-rotating</a> design, therefore we need to use three motors(also one for the tail rotor). The motors will be controller by motor controller boards, which in turn will be controlled by an Arduino. On top of this the Arduino will have a receiver module attached to it in order to make it RC and a <a href="https://www.dipmicro.com/store/GY521-MOD">GY-521</a>(3-axes gyroscope + accelerometer). This last component is added -with proper software- to allow the helicopter to balance on its own. After the initial idea is completed were are thinking to upgrade the helicopter with the ability to lift objects, or automate small flying procedures. 
+			</p>
+			<img alt="helicopter - hardware" src="css/img/Helicopter/helicopter.jpg" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

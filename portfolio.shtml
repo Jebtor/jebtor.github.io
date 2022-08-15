@@ -1,0 +1,147 @@
+<!--#include virtual="/header.html" -->
+	<h5> 
+		Portfolio
+	</h5>
+	</header>
+		<div id="wrapper">
+			<section id="works">
+				<!-- <h2> -->
+					<!-- - Projects -  -->
+				<!-- </h2> -->
+				<div class="clearfix" id="projectWrapper">
+					<a href="voxel.shtml">
+						<img alt="Voxel Game" src="css/img/project-bg-voxel.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Voxel Game </div></div>
+					</a> 				
+					<a href="bottleball.shtml">
+						<img alt="bottleball" src="css/img/project-bg-bottleball.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Bottle Ball </div></div>
+					</a>
+					<a href="randomize/randomize.shtml">
+						<img alt="randomize" src="css/img/project-bg-randomize.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Randomize </div></div>
+					</a>
+					<a href="spookyball/spookyball.shtml">
+						<img alt="spookyball" src="css/img/project-bg-spookyball.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Spooky Ball </div></div>
+					</a>
+					<a href="clippywars.shtml">
+						<img alt="clippy" src="css/img/project-bg-clippy.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Clippy Wars </div></div>
+					</a>
+					<a href="minimumwage/minimumwage.shtml">
+						<img alt="minimum wage" src="css/img/project-bg-wage.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Minimum Wage </div></div>
+					</a>
+					<a href="busdriver/busdriver.shtml">
+						<img alt="bus driver" src="css/img/project-bg-bus.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Bus Driver </div></div>
+					</a>
+					<a href="icehopping.shtml">
+						<img alt="ice hopping" src="css/img/project-bg-ice.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Ice Hopping </div></div>
+					</a>
+					<a href="pizzapanic.shtml">
+						<img alt="pizza panic" src="css/img/project-bg-pizza.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Pizza Panic </div></div>
+					</a>					
+					<a href="steering.shtml">
+						<img alt="Steering Behaviours" src="css/img/project-bg-steering.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Steering Behaviours </div></div>
+					</a> 			
+					<a href="sdf.shtml">
+						<img alt="SDF Fish" src="css/img/project-bg-sdf.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1">SDF Fish</div></div>
+					</a>
+					<a href="loot.shtml">
+						<img alt="Loot" src="css/img/project-bg-loot.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Loot System </div></div>
+					</a>
+					<a href="homebodies.shtml">
+						<img alt="Homebodies" src="css/img/project-bg-homebodies.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> AI & Games </div></div>
+					</a>
+					<a href="terrain.shtml">
+						<img alt="Terrain" src="css/img/project-bg-terrain.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Terrain System </div></div>
+					</a>
+					<a href="lightanddark.shtml">
+						<img alt="Light and Dark" src="css/img/project-bg-light.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Light & Dark</div></div>
+					</a>
+					<a href="bubble.shtml">
+						<img alt="Bubble Chart" src="css/img/project-bg-chart.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Visualisation II </div></div>
+					</a>
+					<a href="movingworld\groupDataVis.shtml">
+						<img alt="Moving World" src="css/img/project-bg-world.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Visualisation I </div></div>
+					</a>
+					<!-- <a href="ethics.shtml"> -->
+						<!-- <img alt="Kickstarter mock-up" src="css/img/project-bg-ethics.jpg"> -->
+						<!-- <div class="projectTileHeader"><div class="projectTileHeaderH1"> Ethics </div></div> -->
+					<!-- </a> -->
+					<a href="helicopter.shtml">
+						<img alt="RC Helicopter" src="css/img/project-bg-helicopter.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> RC Helicopter </div></div>
+					</a>
+					<a href="app.shtml">
+						<img alt="interactive application" src="css/img/project-bg-app.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Android App </div></div>
+					</a>
+					<a href="pirate.shtml">
+						<img alt="Pirate Islands" src="css/img/project-bg-pirate.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1">World Generation </div></div>
+					</a>
+					<a href="eod.shtml">
+						<img alt="Empire of Dirt" src="css/img/project-bg-eod.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Empire of Dirt </div></div>
+					</a>
+					<a href="eden.shtml">
+						<img alt="Garden of Eden" src="css/img/project-bg-eden.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Garden of Eden </div></div>
+					</a>
+					<a href="wood.shtml">
+						<img alt="Wood working" src="css/img/project-bg-wood.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Wood Working </div></div>
+					</a>
+					<a href="villa.shtml">
+						<img alt="Villa" src="css/img/project-bg-villa.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Villa Model </div></div>
+					</a>
+					<a href="console.shtml">
+						<img alt="Console Sketches" src="css/img/project-bg-console.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Console Sketches </div></div>
+					</a>
+					<a href="robot.shtml">
+						<img alt="Tour Guide 3.0" src="css/img/project-bg-robot.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Robot </div></div>
+					</a>
+					<a href="sculpting.shtml">
+						<img alt="Foam Sculpting" src="css/img/project-bg-sculpting.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Foam Sculpting </div></div>
+					</a>
+					<a href="sketching.shtml"> 
+						<img alt="Sketching" src="css/img/project-bg-sketching.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Sketches </div></div>
+					</a>
+					<a href="axe.shtml"> 
+						<img alt="Axe" src="css/img/project-bg-axe.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Axe Model </div></div>
+					</a>
+					<a href="nw-maps.shtml">
+						<img alt="Napoleonic Wars Maps" src="css/img/project-bg-nw.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Maps for NW </div></div>
+					</a>
+					<a href="ship.shtml">
+						<img alt="Flying Ship" src="css/img/project-bg-ship.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Ship Model </div></div>
+					</a>
+					<a href="boxgame.shtml">
+						<img alt="boxgame" src="css/img/project-bg-boxgame.jpg">
+						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Puzzle Game </div></div>
+					</a>
+				</div>							
+			</section>
+		</div>
+<!--#include virtual="/footer.html" -->

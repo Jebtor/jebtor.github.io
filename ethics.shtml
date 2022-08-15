@@ -1,0 +1,13 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Kickstarter page for Ethics course
+		</h5>
+	</header>
+		<div id="wrapper">
+			<h2> 
+				<h3>
+					For a course called 'responsibilities' aka 'Ethics for CreaTe' we had to design a Kickstarter page for an imaginary product. This product should attempt to address an ethical/societal/political problem of some sort and contribute to the user's well being. It is also important to back your claims by empirical support, guidelines and/or codes of ethics. The result of my assignment can be found <a href="css/img/Ethics/Scytale.pdf">here</a>.
+				</h3>
+			</h2>
+		</div>
+<!--#include virtual="/footer.html" -->

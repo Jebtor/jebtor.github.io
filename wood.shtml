@@ -1,0 +1,22 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Wood Working
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				4th of June 2014
+			</div>
+			
+			
+			<h6>
+				The university offered a wood working course for the students that were interested. I signed up for the course and spent 8 afternoons in the workshop. The course was about both hand and electric tools and in the end we got to make our own piece. I decided I wanted to make something similar to the logo shown below.					
+			</h6>
+			<img alt="Logo & Wooden Logo" src="css/img/Wood/piece1.jpg" class="center">
+			
+			<h6>
+				Below you can see how far I have gotten with the piece. I plan to finish the work somewhere in the summer. When it is finished it should resemble an interpretation of Odin with his two ravens, Huginn and  Muninn.
+			</h6>
+			<img alt="Progress" src="css/img/Wood/piece.jpg" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

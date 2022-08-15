@@ -1,0 +1,103 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Steering Behaviours
+		</h5>
+	</header>
+		<div id="wrapper">
+			<div id="date">
+				13th of October 2015
+			</div>		
+			
+			<h6>
+				For the course Games & Artificial Intelligence Techniques, at the Royal Melbourne Institute of Technology, I had to write various steering behaviours. Various steering behaviours can be blended to create for instance flocking behaviours.
+			</h6>
+			
+			<p>
+				Steering behaviours decide what the intended direction of an object is, different steering behaviours can be added to an object as a component. The steering controller collects these behaviours and blends between them. After this the intended movement is send to the movement script where the actual movement takes place.
+			</p>
+			<p>		
+					Most of the steering behaviours are based on pseudo code from the book Artificial Intelligence for Games by Ian Millington and John Funge. Steering behaviours that I build are:
+					Align,
+					Avoid Wall,
+					Cohesion,
+					Flee,
+					Follow Path,
+					Separation,
+					Target,
+					Wander.
+			</p>
+			<img alt="screenshot" style="margin-top:20px;" src="css/img/Steering/setup.JPG" class="center">
+
+			<h2>
+				- Alignment - 
+			</h2>
+			<p>
+				Alignment between boids is achieved by steering towards the points other boids are heading in our vicinity. This causes boids to align.
+			</p>		
+			<img alt="screenshot" style="margin-top:20px;" src="css/img/Steering/align.gif" class="center">
+			
+			<h2>
+				- Object Avoidance - 
+			</h2>			
+			<p>
+				The object avoidance steering behaviour will do nothing unless it detects a possible collision with walls in the near future. Future collisions are detected by three raycasts. One long(er) center ray and two whiskerrays on each side.
+			</p>	
+			<img alt="screenshot" style="margin-top:20px;" src="css/img/Steering/avoid.gif" class="center">
+			
+			<h2>
+				- Cohesion - 
+			</h2>
+			<p>
+				The cohesion behaviour is implemented by getting all boids in our area it should interact with. Then this boid steers towards all other boids it should flock with. This causes flocks to stick together in a group.
+			</p>
+			<img alt="screenshot" style="margin-top:20px;" src="css/img/Steering/cohesion.gif" class="center">
+			
+			<h2>
+				- Flee - 
+			</h2>
+			<p>
+				The flee steering behaviour steers away from a object. The code is very similar to that of steer target except for the fact that it returns the inverse direction and does not stop if it is close to the target.
+			</p>	
+			<img alt="screenshot" style="margin-top:20px;" src="css/img/Steering/flee.gif" class="center">
+			
+			<h2>
+				- Path Follower - 
+			</h2>
+			<p>
+				The pathfollower behaviour will travel towards a path if it is too far away from the path. When the boid is close enough to the path, the boid will start following the path. The direction the boid will follow the path in is predefined, by the order the line is given to this behaviour. The path the boid follows exist out of line segments.
+			</p>
+			<img alt="screenshot" style="margin-top:20px;" src="css/img/Steering/pathfollower.gif" class="center">
+			
+			<h2>
+				- Separation - 
+			</h2>
+			<p>
+				Separation keeps boids apart from each other. Nearby boids are detected with a spehere. The separation strength is weighted according to the inverse square law.
+			</p>
+			<img alt="screenshot" style="margin-top:20px;" src="css/img/Steering/separation.gif" class="center">
+
+			<h2>
+				- Target - 
+			</h2>
+			<p>			
+				The target behaviour causes the boid to steer towards a given object. This object can be moved. 
+			</p>
+			<img alt="screenshot" style="margin-top:20px;" src="css/img/Steering/target.gif" class="center">
+
+			<h2>
+				- Wander - 
+			</h2>
+			<p>			
+				This steering behavior wanders around in random directions, while maintaining a natural looking line of movement. This is done by randomly selecting a point (white) on a circle that is in from of the boid. The blue line is drawn from the boid to the center of this circle.
+			</p>
+			<img alt="screenshot" style="margin-top:20px;" src="css/img/Steering/wander.gif" class="center">
+
+			<h2>
+				- Putting Some of it Together - 
+			</h2>
+			<p>
+				Lastly, flocking can be created by combining the Cohesion, Align and Separation behaviours. 
+			</p>
+			<img alt="screenshot" style="margin-top:20px;" src="css/img/Steering/flocking.gif" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->

@@ -1,0 +1,16 @@
+<!--#include virtual="/header.html" -->
+		<h5> 
+			Axe 
+		</h5>
+	</header>
+		<div id="wrapper">
+			<h2> 
+				<h3>
+					I made a drawing in photoshop and later used this drawing to model it in a 3d computer object.
+				</h3>
+			</h2>
+			<img alt="axe - drawing" src="css/img/Axe/axe.jpg" class="center">
+			<img alt="axe - model" src="css/img/Axe/axe2.JPG" class="center">
+			<img alt="axe - wireframe" src="css/img/Axe/axe3.jpg" class="center">
+		</div>
+<!--#include virtual="/footer.html" -->
