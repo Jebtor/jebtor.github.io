@@ -1,4 +1,31 @@
-<!--#include virtual="/header.html" -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Sven Santema - Portfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/clearfix.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="shortcut icon" href="css/img/favicon.png" />
+	</head>
+	<body>
+	<header class="projectHeader">
+		<nav>
+			<ul><a name="top"></a>
+				<li>
+					<a href="../index.html" id="menuName"> SVEN SANTEMA</a>
+				</li>
+				<li>
+					<a href="../index.html#contact">Contact</a>
+				</li>
+				<li>
+					<a href="../portfolio.shtml"> Projects </a>
+				</li>
+				<li>
+					<a href="../index.html"> Home </a>
+				</li>
+			</ul>
+		</nav>
 	<h5> 
 		Portfolio
 	</h5>
@@ -13,7 +40,7 @@
 						<img alt="Voxel Game" src="css/img/project-bg-voxel.jpg">
 						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Voxel Game </div></div>
 					</a> 				
-					<a href="bottleball.shtml">
+					<!-- <a href="bottleball.shtml">
 						<img alt="bottleball" src="css/img/project-bg-bottleball.jpg">
 						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Bottle Ball </div></div>
 					</a>
@@ -24,7 +51,7 @@
 					<a href="spookyball/spookyball.shtml">
 						<img alt="spookyball" src="css/img/project-bg-spookyball.jpg">
 						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Spooky Ball </div></div>
-					</a>
+					</a> -->
 					<a href="clippywars.shtml">
 						<img alt="clippy" src="css/img/project-bg-clippy.jpg">
 						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Clippy Wars </div></div>
@@ -73,10 +100,10 @@
 						<img alt="Bubble Chart" src="css/img/project-bg-chart.jpg">
 						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Visualisation II </div></div>
 					</a>
-					<a href="movingworld\groupDataVis.shtml">
+					<!-- <a href="movingworld\groupDataVis.shtml">
 						<img alt="Moving World" src="css/img/project-bg-world.jpg">
 						<div class="projectTileHeader"><div class="projectTileHeaderH1"> Visualisation I </div></div>
-					</a>
+					</a> -->
 					<!-- <a href="ethics.shtml"> -->
 						<!-- <img alt="Kickstarter mock-up" src="css/img/project-bg-ethics.jpg"> -->
 						<!-- <div class="projectTileHeader"><div class="projectTileHeaderH1"> Ethics </div></div> -->
@@ -144,4 +171,11 @@
 				</div>							
 			</section>
 		</div>
-<!--#include virtual="/footer.html" -->
+		<footer>
+			<a href="../portfolio.shtml"> Back </a>
+			<hr noshade>
+			<h4>2014-2018 &#169 Sven Santema</h4>
+			<h4><small> Proudly powered with Notepad++ </small></h4>			
+		</footer>
+	</body>
+</html>			

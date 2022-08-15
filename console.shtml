@@ -1,4 +1,31 @@
-<!--#include virtual="/header.html" -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Sven Santema - Portfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/clearfix.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="shortcut icon" href="css/img/favicon.png" />
+	</head>
+	<body>
+	<header class="projectHeader">
+		<nav>
+			<ul><a name="top"></a>
+				<li>
+					<a href="../index.html" id="menuName"> SVEN SANTEMA</a>
+				</li>
+				<li>
+					<a href="../index.html#contact">Contact</a>
+				</li>
+				<li>
+					<a href="../portfolio.shtml"> Projects </a>
+				</li>
+				<li>
+					<a href="../index.html"> Home </a>
+				</li>
+			</ul>
+		</nav>
 		<h5> 
 			Gaming Console Sketches
 		</h5>
@@ -14,4 +41,11 @@
 			<img alt="First sketch" src="css/img/Console/sketch.JPG" class="center">
 			<img alt="Clean Sketch" src="css/img/Console/final.JPG" class="center">
 		</div>
-<!--#include virtual="/footer.html" -->
+		<footer>
+			<a href="../portfolio.shtml"> Back </a>
+			<hr noshade>
+			<h4>2014-2018 &#169 Sven Santema</h4>
+			<h4><small> Proudly powered with Notepad++ </small></h4>			
+		</footer>
+	</body>
+</html>			
